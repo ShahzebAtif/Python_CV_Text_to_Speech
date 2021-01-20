@@ -22,7 +22,7 @@ speak('What is your Email? ')
 email = input('What is your email? ')
 
 document.add_paragraph(
-    name.capitalize() + ' | ' + phone_number + ' | ' + email.lower())
+    name.title() + ' | ' + phone_number + ' | ' + email.lower())
 
 #About Me
 document.add_heading('About Me')
